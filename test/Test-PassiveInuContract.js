@@ -24,7 +24,7 @@ let whitelistClaimPass = [{
 }]
 
 if (true == true)
-    describe("NFT Pump Tests", function () {
+    describe("Passive Inu Tests", function () {
         let buyer, owner, hashValue;
 
         // beforeEach(async function () {
@@ -39,7 +39,7 @@ if (true == true)
             let ethBalance = ethers.utils.formatEther(await ethers.provider.getBalance(owner.address));
             console.log("Start Balance: " + ethBalance);
 
-            const currentContract = await ethers.getContractFactory("GenericNFTPumpContract");
+            const currentContract = await ethers.getContractFactory("PassiveInuNFT");
             currentToken = await currentContract.deploy(
                 'Test Contract',
                 'Test',

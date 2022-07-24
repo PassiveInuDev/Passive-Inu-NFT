@@ -2,8 +2,7 @@
 pragma solidity ^0.8.11;
 
 /********************
- * @author: Techoshi.eth *
-        <(^_^)>
+ * @author: Passive Inu Dev *
  ********************/
 
 import "@openzeppelin/contracts/access/Ownable.sol";
@@ -14,7 +13,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 import "@openzeppelin/contracts/finance/PaymentSplitter.sol";
 
 
-contract GenericNFTPumpContract is Ownable, ERC721, ERC721URIStorage, PaymentSplitter {
+contract PassiveInuNFT is Ownable, ERC721, ERC721URIStorage, PaymentSplitter {
     using Counters for Counters.Counter;
     using ECDSA for bytes32;
     using Strings for uint256;
@@ -31,7 +30,7 @@ contract GenericNFTPumpContract is Ownable, ERC721, ERC721URIStorage, PaymentSpl
     Counters.Counter private _tokenSupply;
     Counters.Counter private _freeSupply;
 
-    uint256 public constant MAX_TOKENS = 3100;
+    uint256 public constant MAX_TOKENS = 10000;
     uint256 public publicMintMaxLimit = 50;
     uint256 public whitelistMintMaxLimit = 50;
     uint256 public tokenPrice = 0.14 ether;
@@ -51,8 +50,8 @@ contract GenericNFTPumpContract is Ownable, ERC721, ERC721URIStorage, PaymentSpl
 
     mapping(address => bool) whitelistedAddresses;
 
-    string public Author = "techoshi.eth";
-    string public ProjectTeam = "nftpumps";
+    string public Author = "Passive Inu Dev";
+    string public ProjectTeam = "PassiveInu";
 
     struct WhitelistClaimPass {
         bytes32 r;

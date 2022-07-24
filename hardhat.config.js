@@ -49,26 +49,26 @@ module.exports = {
     } // See options below
   },
   // defaultNetwork: "hardhat",
-  // defaultNetwork: "rinkeby",
+  // defaultNetwork: "Cronos testnet",
   // etherscan: {
   //   apiKey: ETHERSCAN_API_KEY,
   // },
   // networks: {
-  //   hardhat: { chainId: 1337 },
+  //   hardhat: { chainId: 338 },
   //   rinkeby: {
-  //     url: `https://rinkeby.infura.io/v3/${PROJECT_ID}`,
+  //     url: `https://cronos-testnet-3.crypto.org:8545`,
   //     accounts: [`0x${PK}`],
   //   }
   // }
 
-  defaultNetwork: "mainnet",
+  defaultNetwork: "Cronos mainnet",
   etherscan: {
     apiKey: ETHERSCAN_API_KEY,
   },
   networks: {
-    hardhat: { chainId: 1 },
+    hardhat: { chainId: 25 },
     mainnet: {
-      url: `https://mainnet.infura.io/v3/${PROJECT_ID}`,
+      url: `https://evm-cronos.crypto.org/`,
       accounts: [`0x${PK}`],
     }
   }  

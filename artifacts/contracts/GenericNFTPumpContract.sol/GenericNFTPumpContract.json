@@ -1,7 +1,7 @@
 {
   "_format": "hh-sol-artifact-1",
-  "contractName": "GenericNFTPumpContract",
-  "sourceName": "contracts/GenericNFTPumpContract.sol",
+  "contractName": "PassiveInuNFT",
+  "sourceName": "contracts/PassiveInuNFT.sol",
   "abi": [
     {
       "inputs": [
@@ -1082,7 +1082,7 @@
               "type": "uint8"
             }
           ],
-          "internalType": "struct GenericNFTPumpContract.WhitelistClaimPass",
+          "internalType": "struct PassiveInuNFT.WhitelistClaimPass",
           "name": "whitelistClaimPass",
           "type": "tuple"
         }
