@@ -12,8 +12,8 @@ module.exports = [
         ethers.utils.getAddress('0x8912e40d291693C7A86C418D52b46766780C6989'),
         ethers.utils.getAddress('0x6b3ba9F0475C646FDaF2Bc207C285a485B88A747'),
         ethers.utils.getAddress('0xbE400D9A6f8140B51dE4B3b7AAb1DA4B9adec9a0'),
-        ethers.utils.getAddress('0xEAC3ce292F95d779732e7a26c95c57A742cf5119'),
-        ethers.utils.getAddress('0x9Dc7D54E10A199C00176FFA68459fD9b15A706c4')
+        ethers.utils.getAddress('0xc2689Ddf02E4b77BdB7ae6F5EC890FF5964e09B3'),
+        ethers.utils.getAddress('0x83458be9FE4a42b0A0D79BED404d97ed1c4a9937')
     ],
     [
         26,
