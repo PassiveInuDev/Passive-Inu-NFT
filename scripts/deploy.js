@@ -9,12 +9,12 @@ async function main() {
     const Token = await ethers.getContractFactory("PassiveInuNFT");
     //const token = await Token.deploy('0x079f1BaC0025ad71Ab16253271ceCA92b222C614');
     const token = await Token.deploy(
-    'NFT Pump Contract',
-    'NFTPUMP',
+    'Passive Inu Contract',
+    'PassiveInu',
     '0xf5e3D593FC734b267b313240A0FcE8E0edEBD69a',
     '0xf5e3D593FC734b267b313240A0FcE8E0edEBD69a',
-    'https://techoshiprojects.s3.amazonaws.com/Path/json/',
-    'https://techoshiprojects.s3.amazonaws.com/Path/assets/reveal.json',
+    'https://projects.s3.amazonaws.com/Path/json/',
+    'https://projects.s3.amazonaws.com/Path/assets/reveal.json',
     [
         ethers.utils.getAddress('0xf5e3D593FC734b267b313240A0FcE8E0edEBD69a'), 
         ethers.utils.getAddress('0xc664F3f1C7170A9C213F56456a83f54E26FF310f'),
